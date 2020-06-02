@@ -1,0 +1,479 @@
+.first{
+    background-image: url("../img/Без-имени-1.png" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 18.5rem;
+    padding-bottom: 14rem;
+    text-align: center;
+    position: relative;
+}
+
+.h4{
+    font-size: $f14;
+    color: $green;
+    text-transform: uppercase;
+    
+}
+
+.first:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #241e18;
+   opacity: 0.7;
+}
+
+.first-content {
+    z-index: 50;
+}
+
+.h4-place{
+  margin-bottom: 4rem;
+}
+
+.h4-fonts{
+    font-family: $mp;
+    letter-spacing: 0.15rem;
+}
+
+.h1-place{
+    margin-bottom: 14rem;
+  }
+
+.h1-fonts{
+    font-family: $mp;
+    letter-spacing: 1.1rem;
+}
+
+.greenBar{
+    background-color: $green;
+    height: 1rem;
+}
+
+
+// Second MyServices
+
+.second {
+ padding-bottom: 10rem;
+}
+
+.second-title {
+    text-align: center;
+}
+
+.second-h2-place {
+    margin-top: 10.2rem;
+    margin-bottom: 2.9rem;
+}
+
+.second-h4-place {
+    margin-bottom: 9.8rem;
+}
+
+.second-h2-fohts {
+    font-family: $mb;  
+}
+
+.second-h4-fonts {
+    font-family: $osb;
+    letter-spacing: 0.1rem;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.second-content > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CircleLeft{
+    width: 16.5rem;
+    height: 16.5rem;
+    border-radius: 8.25rem;
+    background: $green;
+}
+
+.MiddleCircle {
+    width: 16.5rem;
+    height: 16.5rem;
+    border-radius: 8.25rem;
+    background: $green;
+}
+
+.RightCircle {
+    width: 16.5rem;
+    height: 16.5rem;
+    border-radius: 8.25rem;
+    background: $green;
+}
+
+.CircleLeft-place, .MiddleCircle-place, .RightCircle-place {
+   position: relative;
+   
+}
+
+.CircleLeft-place img, .MiddleCircle-place img, .RightCircle-place img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.services-h3-place {
+    margin-top: 4.8rem;
+    margin-bottom: 3.8rem;
+}
+
+.services-h3-fohts {
+    font-family: $mb;
+}
+
+.services-paragraphs-place {
+    text-align: center;
+    margin-bottom: 4.9rem;
+}
+.services-paragraphs-fohts {
+    font-family: $os;
+    
+}
+
+.btn-ml {
+    margin-right: 0;
+}
+
+// third AboutMe
+.third {
+    background-color: #f2f0e9;
+}
+
+.third-title {
+    text-align: center;
+}
+
+.third-AboutMe-place {
+    padding-top: 10rem;
+}
+
+.third-AboutMe-font {
+    font-family: $mb;
+}
+
+.third-h4-place {
+    padding-top: 3.8rem;
+}
+
+.third-content-Layer {
+    width: 50%;
+}
+
+.LayerPhoto {
+    display: inline-block;
+    width: 13.8rem;
+    height: 13.8rem;
+    border-radius: 6.9rem;
+    background: url(../img/MyPhoto.jpg) no-repeat -0.8rem 0;
+}
+
+.third-content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10rem;
+    padding-bottom: 10.7rem;
+}
+
+.third-content-Layer {
+    text-align: center;
+}
+
+.content-Layer-font {
+    font-family: $osi;
+}
+
+.third-content-Layer h3 {
+    padding-top: 2.6rem;
+    padding-bottom: 1rem;
+}
+
+.third-content-Layer a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top: 3rem;
+}
+
+.third-link-text {
+    font-family: $osb;
+    letter-spacing: 0.1rem;
+}
+
+.third-content-paragraphs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fs18 {
+    font-size: $f18;
+}
+
+.third-content p {
+    font-family: $os;
+    line-height: 1.6;
+}
+
+.third-content span {
+    font-family: $osb;
+}
+
+
+// fourth MyWork
+
+.MyWork {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.h2-title-MyWork-place {
+    padding-bottom: 3rem;
+}
+
+.title-MyWork {
+    text-align: center;
+}
+
+.btn-projects {
+    text-align: center;
+}
+
+.btn-plr {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.content-MyWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 9rem;
+    padding-bottom: 4rem;
+}
+
+.content-MyWork-first-row, .content-MyWork-second-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-MyWork-first-row {
+    padding-bottom: 0.8rem;
+}
+
+.content-MyWork-second-row {
+    padding-top: 0.8rem;  
+}
+
+.MyWork-first-row-second {
+    text-align: center;
+}
+
+.MyWork-first-row-second > div {
+    position: absolute;
+    height: 19.7rem;
+    width: 26.2rem;
+    display: none;
+    z-index: 1;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.MyWork-first-row-second > div > div {
+    position: absolute;
+    height: 19.7rem;
+    width: 26.2rem;
+    background-color: #d68319;
+    border-radius: 5px;
+    
+    opacity: 0.8;
+}
+
+.MyWork-first-row-second div .Project-name-place {
+    position: relative;
+    font-size: 2.1rem;
+    color: $white;
+    padding-top: 5.7rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-family: $mb;
+    opacity: 1;
+    z-index: 100;
+}
+
+.MyWork-first-row-second:hover div{
+    display: block;
+}
+
+.btn-Yellow-White-place {
+    display: inline-block;
+    position: relative;
+    opacity: 1;
+    z-index: 100;
+}
+
+.btn-Yellow-White-place-fonts {
+    font-size: 1.1rem;
+    font-family: $osb;
+    letter-spacing: 0.2rem;
+}
+
+
+// fifth
+
+.fifth {
+    background-color: #f2f0e9;
+}
+
+.TESTIMONIALS {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.title-TESTIMONIALS-fonts {
+    font-family: $mb;
+}
+
+.title-TESTIMONIALS-place {
+   padding-bottom: 3rem;
+}
+
+.content-TESTIMONIALS-fonts {
+    font-family: $ml;
+}
+
+.content-TESTIMONIALS-place {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.content-avatar {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.Avatar {
+    height: 6.4rem;
+    width: 6.4rem;
+    background: url(../img/MyPhotoMini.jpg) no-repeat -0.4rem 0;
+    border-radius: 3.2rem;
+    border: 5px solid white;
+}
+
+.avatar-title {
+    text-align: left;
+    padding-left: 2.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.avatar-title-John-fonts {
+    font-size: $f22;
+    font-family: $mb;
+    color: $black;
+}
+
+.avatar-title-CEO-fonts {
+    font-family: $osi;
+    font-size: $f14;
+    color: $gray;
+}
+
+.bullets {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.bullets div {
+    
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 0.75rem;
+    background-color: $white;
+}
+
+.bullets-second, .bullets-third {
+    margin-left: 1rem;
+}
+
+.bullets-third {
+    margin-right: 7rem;
+}
+
+.bullets-first:hover, .bullets-second:hover, .bullets-third:hover {
+    background-color: $green;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+// sixth
+
+.CTA {
+    text-align: center;
+    padding-top: 9rem;
+    padding-bottom: 10rem;
+}
+
+.CTA-title-fonts {
+    font-family: $mb;
+    font-size: $f48;
+    color: $black;
+}
+
+.CTA-title .h4gray {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+.CTA-btn {
+    display: inline-block;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 4rem;
+    text-transform: uppercase;
+}
+
+.CTA-btn-orange {
+    border: 0.1rem solid transparent;
+    color: $white;
+    background-color: $orange;
+    margin-left: 1.5rem;
+}
+
+.CTA-btn-fonts {
+    font-family: $osb;
+    font-size: $f14;
+    letter-spacing: 0.2rem;
+}

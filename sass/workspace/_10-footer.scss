@@ -1,0 +1,26 @@
+// footer
+
+.main-footer {
+    background-color: #241e18;
+    text-align: center;
+}
+
+.footer {
+    padding-top: 10rem;
+    padding-bottom: 10rem;  
+    
+}
+
+.footer-title-fonts {
+    color: $gray;
+    font-family: $os;
+    font-size: $f16;
+}
+
+.SocialIcons img {
+    opacity: 0.3;
+}
+
+.SocialIcons img:hover {
+   opacity: 1;
+}

@@ -1,0 +1,68 @@
+// header
+
+.main-header {
+    position: absolute;
+    top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: $f24;
+    color: $white;
+}
+
+.logo-fonts {
+    font-family: $mb;
+}
+
+.main-menu {
+    display: inline-block;
+}
+
+.menu-item > li{
+display: inline-block;
+margin-right: 5rem;
+}
+.menu-item > li:last-child {
+    margin-right: 0;
+}
+
+
+.menu-item > li > a{
+   opacity: 0.3; 
+   color: $white;
+   font-size: $f12;
+   text-transform: uppercase;
+   position: relative;
+}
+
+.menu-item > li > a:after{
+   content: "";
+   position: absolute;
+   display: block;
+   height: 0.2rem;
+   background-color: $green;
+   top: 2rem;
+   width: 100%;
+   opacity: 0;
+}
+
+.menu-item > li > a:hover:after {
+ opacity: 1;
+}
+
+.menu-item > li > a:hover{
+    opacity: 1;
+
+}
+
+.menu-fonts{
+    font-family: $osb;
+}
+
+.mehu-letterSpacing{
+    letter-spacing: 0.15rem;
+}
